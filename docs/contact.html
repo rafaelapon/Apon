@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <title>Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">My Portfolio</div>
+    <br>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4" style="background-image: url('img/dota1.jpg');">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html" style="color: white;">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html" style="color: white;">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="project.html" style="color: white;">Project</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contact.html" style="color: white;">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="color: white;">
+
+      <div class="bg-faded p-4 my-4">
+        <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">Get In
+          <strong>Touch</strong>
+        </h2>
+        <hr class="divider">
+        <center>
+          <div class="col-lg-4">
+            <h5 class="mb-0">Phone:</h5>
+            <div class="mb-4">09272147377</div>
+            <a href="http://www.facebook.com"><img src="img/Facebook.png" style="width: 30px;"></a> <a href="http://www.twitter.com"><img src="img/twitter.png" style="width: 30px;"></a> <a href="http://www.instagram.com"><img src="img/Insta.png" style="width: 30px;"></a><br><br>
+            <h5 class="mb-0">Address:</h5>
+            <div class="mb-4">
+            Block C-1 Lot 28 Barangay San Simon Dasmiriñas Cavite
+              <br>
+              Greed Island
+            </div>
+          </div>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <footer class="bg-faded text-center py-3" style="background-image: url('img/dota1.jpg');">
+      <div class="container">
+        <p class="m-0" style="color:white;">Copyright &copy; Rafael Website 2017</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Zoom when clicked function for Google Map -->
+    <script>
+      $('.map-container').click(function () {
+        $(this).find('iframe').addClass('clicked')
+      }).mouseleave(function () {
+        $(this).find('iframe').removeClass('clicked')
+      });
+    </script>
+    
+
+  </body>
+
+</html>
